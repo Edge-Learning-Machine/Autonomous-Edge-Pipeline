@@ -37,14 +37,14 @@ Third, the k-means algorithm should be configured in `kmeans.h`, where the user 
   * ITERATION: maximum number of iterations of the k-means algorithm for a single run.
   * CONFIDENCE_THR: the threshold for the confidence algorithm, so to remove all samples having weights lower than the threshold
 
-### AutoDT
-If `AutoDT` was set, the program must be configured in `decision_tree_training.h`, where the user has to choose values for:
-  * MAX_DEPTH: maximum depth of the tree,
-  * MIN_SIZE: minimum number of samples required to split an internal node,
+#### AutoDT
+ If `AutoDT` was set, the program must be configured in `decision_tree_training.h`, where the user has to choose values for:
+   * MAX_DEPTH: maximum depth of the tree,
+   * MIN_SIZE: minimum number of samples required to split an internal node,
 
-### AutoKNN
-If `AutoKNN` was set, the program must be configured in `knn_classification.h`, where the user has to choose value for:
-  * K_NEIGHBOR: number of neighbors k to be considered in each decision,
+#### AutoKNN
+ If `AutoKNN` was set, the program must be configured in `knn_classification.h`, where the user has to choose value for:
+   * K_NEIGHBOR: number of neighbors k to be considered in each decision,
 
 `main.h` exposes the following functions:
 - *`kmeans`*, k-means clustering algorithm. More details about this function can be found in the `kmeans.c` file
