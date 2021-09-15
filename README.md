@@ -20,7 +20,7 @@ The program must be configured first in `main.h`, where the user has to specify 
   * AutoKNN: the samples together with their corresponding pseudo-labels (resulting from k-means clustering) are ready to be used by the K-NN classifier,
 
 - **Confidence**: to enable/disable the confidence algorithm
- * CONFIDENCE: the k-means labels are evaluated by a confidence algorithm which filters the samples to be used for training one of the two supported classifiers (can be enabled/disabled),
+  * CONFIDENCE: the k-means labels are evaluated by a confidence algorithm which filters the samples to be used for training one of the two supported classifiers (can be enabled/disabled),
 
 - **Filter**: to enable one of the three supported memory filtering strategies
   * FIFO: removes the older samples from memory,
