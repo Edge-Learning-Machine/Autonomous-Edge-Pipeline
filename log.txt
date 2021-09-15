@@ -41,7 +41,7 @@ Testinig set size: 154
 ^ Decision Tree:
 
 	- Number of samples correctly classified using the Decision Tree: 103
-	- Accuracy: 66.88%
+	- Accuracy: 82.47%
 
 ^ k-means: 
 
