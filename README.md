@@ -34,7 +34,7 @@ Second, the memory should be configured in `pipeline.h`, where the user has to c
 
 Third, the k-means algorithm should be configured in `kmeans.h`, where the user has to choose values for:
   * K: number of clusters,
-  * Iteration: maximum number of iterations of the k-means algorithm for a single run.
+  * ITERATION: maximum number of iterations of the k-means algorithm for a single run.
   * CONFIDENCE_THR: the threshold for the confidence algorithm, so to remove all samples having weights lower than the threshold
 
 ### AutoDT
