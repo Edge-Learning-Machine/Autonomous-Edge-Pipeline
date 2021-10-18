@@ -64,4 +64,4 @@ kmeans_classifier
 The obtained results after running the AEP with the user defined parameters are saved in a text file named *`log.txt`*
 
 ## Reference article for more infomation
-F., Sakr, R. Berta, J. Doyle, A. De Gloria, and F., Bellotti, "Self-Learning Pipeline for Low-Energy Resource-Constrained Devices," Submitted to MDPI Energies 2021.
+F., Sakr, R. Berta, J. Doyle, A. De Gloria, and F., Bellotti, "Self-Learning Pipeline for Low-Energy Resource-Constrained Devices," Energies 2021, 14, 6636. https://www.mdpi.com/1424-8220/20/9/2638
