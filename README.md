@@ -48,8 +48,8 @@ Third, the k-means algorithm should be configured in `kmeans.h`, where the user 
 
 `main.h` exposes the following functions:
 - *`kmeans`*, k-means clustering algorithm. More details about this function can be found in the `kmeans.c` file
-- *`decision_tree_training`*, the dicision tree training algorithm. More details about this function can be found in the `decision_tree_training.c` file
-- *`decision_tree_classifier`*, the dicision tree classification algorithm. More details about this function can be found in the `decision_tree_classifier.c` file
+- *`decision_tree_training`*, the decision tree training algorithm. More details about this function can be found in the `decision_tree_training.c` file
+- *`decision_tree_classifier`*, the decision tree classification algorithm. More details about this function can be found in the `decision_tree_classifier.c` file
 - *`knn_classification`*, the K-NN classification algorithm. More details about this function can be found in the `knn_classification.c` file
 kmeans_classifier
 - *`pipeline`*, the pipeline function followed after clustering and training. More details about this function can be found in the `pipeline.c` file
